@@ -1,0 +1,4 @@
+print("Podaj ilość X")
+num = int(input())
+x = 'x'
+print(x*num)

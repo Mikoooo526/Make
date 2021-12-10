@@ -1,0 +1,20 @@
+def obcinaj(s):
+  return print(s[1:-1])
+
+
+def max_sum(a,b,c):
+  list=[a,b,c]
+  x=max(list)
+  list.remove(x)
+  y=max(list)
+  suma=x+y
+  return print(suma)
+
+def wybierz_parzyste(x):
+  parzyste=[num for num in x if num % 2 == 0]
+  return(print(parzyste))
+
+def pole_trapezu(a,b,h):
+  pole = 0.5 * (a + b) * h
+  return(print("Pole trapezu wynosi: ",pole))
+

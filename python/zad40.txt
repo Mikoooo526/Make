@@ -1,0 +1,9 @@
+print("Podaj ilość X")
+num = int(input())
+x = 'x'
+
+for i in range(num+1):
+    space=num-i
+    
+    print(" "*space,x*i)
+
